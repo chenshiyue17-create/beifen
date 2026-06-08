@@ -1,0 +1,19 @@
+{
+  "name": "gemini-cli-backup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backup and restore materials for @google/gemini-cli.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "install:global": "bash scripts/install-gemini-cli.sh",
+    "verify": "bash scripts/verify-gemini-cli.sh",
+    "test": "node tests/smoke.test.js",
+    "dev:status": "bash scripts/dev-status.sh"
+  },
+  "dependencies": {
+    "@google/gemini-cli": "0.45.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

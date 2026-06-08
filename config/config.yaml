@@ -1,0 +1,16 @@
+backup:
+  package_name: "@google/gemini-cli"
+  package_version: "0.45.2"
+  command_name: "gemini"
+  required_node: ">=20"
+  npm_global_prefix_at_capture: "/Users/cc/.npm-global"
+  npm_global_root_at_capture: "/Users/cc/.npm-global/lib/node_modules"
+  captured_at: "2026-06-08"
+restore:
+  prefer_local_tarball: true
+  tarball_path: "vendor/google-gemini-cli-0.45.2.tgz"
+security:
+  include_credentials: false
+  include_browser_state: false
+  include_keychain: false
+  include_tokens: false
