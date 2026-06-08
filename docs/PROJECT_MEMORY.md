@@ -14,3 +14,8 @@ Back up restore materials for the globally installed `@google/gemini-cli` packag
 - Restore: `bash scripts/install-gemini-cli.sh`
 - Verify: `bash scripts/verify-gemini-cli.sh`
 - Test: `npm test`
+- Create Clash Verge Rev local mirror bundle: `bash scripts/backup-github-repo.sh clash-verge-rev`
+
+## External Repositories
+
+- `clash-verge-rev`: `https://github.com/clash-verge-rev/clash-verge-rev.git`, default branch `dev`, captured HEAD `2828782e4c902a76814afd663fba764a7d48c302`.

@@ -38,6 +38,7 @@ npm test
 - `package-lock.json` - npm lockfile for dependency traceability.
 - `vendor/` - npm package tarball backup.
 - `scripts/` - restore, verify, and dev status helpers.
+- `config/repositories.yaml` - external Git repository backup registry.
 - `tests/` - smoke tests for backup integrity and CLI availability.
 - `config/config.yaml` - non-secret backup metadata.
 - `.env.example` - documented environment variables, no secrets.
@@ -57,3 +58,15 @@ If `gemini` asks for authentication after restore, complete that login locally o
 - `npm: command not found`: install npm with Node.js.
 - `gemini: command not found`: ensure npm global bin is on `PATH`.
 - Permission errors during global install: configure an npm user-level prefix, then retry.
+
+## External Repository Backups
+
+Tracked source repositories are listed in `config/repositories.yaml`.
+
+Create a local mirror bundle for the Clash Verge Rev repository:
+
+```bash
+bash scripts/backup-github-repo.sh clash-verge-rev
+```
+
+The generated bundle is written to `output/repo-bundles/` and is intentionally not committed unless you explicitly decide to store the large binary artifact.

@@ -13,6 +13,7 @@ function assert(condition, message) {
 assert(existsSync(join(root, "README.md")), "README.md is missing");
 assert(existsSync(join(root, "config", "config.yaml")), "config/config.yaml is missing");
 assert(existsSync(join(root, "vendor", "google-gemini-cli-0.45.2.tgz")), "vendor tarball is missing");
+assert(existsSync(join(root, "config", "repositories.yaml")), "config/repositories.yaml is missing");
 assert(existsSync(join(root, "output", ".gitkeep")), "output placeholder is missing");
 assert(existsSync(join(root, "logs", ".gitkeep")), "logs placeholder is missing");
 

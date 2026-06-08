@@ -1,0 +1,10 @@
+repositories:
+  - id: "clash-verge-rev"
+    name: "clash-verge-rev"
+    url: "https://github.com/clash-verge-rev/clash-verge-rev.git"
+    default_branch: "dev"
+    captured_head: "2828782e4c902a76814afd663fba764a7d48c302"
+    captured_at: "2026-06-08"
+    backup_mode: "tracked_url_and_restore_script"
+    local_bundle_output: "output/repo-bundles/clash-verge-rev.bundle"
+    notes: "Repository address and captured HEAD are tracked here. Run scripts/backup-github-repo.sh to create a local mirror bundle."
