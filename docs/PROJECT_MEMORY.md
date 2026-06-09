@@ -18,4 +18,4 @@ Back up restore materials for the globally installed `@google/gemini-cli` packag
 
 ## External Repositories
 
-- `clash-verge-rev`: `https://github.com/clash-verge-rev/clash-verge-rev.git`, default branch `dev`, captured HEAD `2828782e4c902a76814afd663fba764a7d48c302`.
+- `clash-verge-rev`: `https://github.com/clash-verge-rev/clash-verge-rev.git`, default branch `dev`, captured HEAD `6a0cc2124478b8c2446397e8202acccbf651295a`. Local mirror bundle generated at `output/repo-bundles/clash-verge-rev.bundle`.
